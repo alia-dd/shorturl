@@ -1,6 +1,6 @@
 # URL Shortener Frontend
 
-A modern, responsive frontend for a URL shortening web app built with **Next.js** and **Tailwind CSS**. This app lets users paste long URLs and receive short, easy-to-share links that connect to your backend API `https://github.com/alia-dd/url-shortner-backend`.
+A modern, responsive frontend for a URL shortening web app built with **Next.js** and **Tailwind CSS**. This app lets users paste long URLs and receive short, easy-to-share links that connect to your backend API https://github.com/alia-dd/url-shortner-backend.
 
 ---
 
