@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# URL Shortener Frontend
 
-## Getting Started
+A modern, responsive frontend for a URL shortening web app built with **Next.js** and **Tailwind CSS**. This app lets users paste long URLs and receive short, easy-to-share links that connect to your backend API `https://github.com/alia-dd/url-shortner-backend`.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Features
+
+* User‑friendly interface for shortening URLs
+* Responsive design supported on desktop and mobile
+* Connects with your backend API to generate short links
+* Displays results and provides shareable short URLs
+
+---
+
+## 📁 Built With
+
+* **Next.js** – React framework for production apps
+* **Tailwind CSS** – Utility‑first CSS framework
+* **React Hooks** – For managing state and logic
+* **API Integration** – Connects to a backend URL shortener service
+
+---
+
+## 🛠️ Getting Started
+
+### 🔹 Prerequisites
+
+Make sure you have **Node.js** and **npm/yarn** installed.
+
+### 📥 Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/alia-dd/shorturl.git
+   cd shorturl
+   ```
+
+2. Install dependencies:
+
+   ```
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Create `.env.local` (if your frontend needs environment variables):
+
+   ```
+   BASE_URLL=http://localhost:8080
+   or use the hosted backend
+   BASE_URL=https://url-shortner-backend-36xa.onrender.com
+   ```
+
+---
+
+## ▶️ Run Locally
+
+Run the development server:
+
+```
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧪 Usage
 
-## Learn More
+1. Enter a long URL into the input field
+2. Click the **Generate** button
+3. View the generated short link
+4. Copy and share the short link anywhere
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! If you’d like to improve the project, please follow these steps:
 
-## Deploy on Vercel
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push and open a pull request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**.
+
+---
